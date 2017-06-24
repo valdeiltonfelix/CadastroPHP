@@ -46,6 +46,7 @@ var btn = document.getElementById("salvar");
     if (httpRequest.readyState === 4) {
       if (httpRequest.status === 200) {
         alert(httpRequest.responseText);
+        limpar();
       } else {
        alert('ERRO:: Não foi possivel fazer a conxão');
       }
@@ -54,7 +55,14 @@ var btn = document.getElementById("salvar");
     //   alert(httpRequest.responseText);
    }
         
-        
+   function limpar(){
+               document.getElementById('nome').value="";
+               document.getElementById('cpf').value="";
+               document.getElementById('idade').value="";
+               document.getElementById('mae').value="";
+               document.getElementById('pai').value="";        
+       
+   }     
                 
 
 

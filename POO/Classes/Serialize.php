@@ -35,7 +35,9 @@ class Serialize {
         
          $filename='BancoPessoa/pessoa.csv';
          if(!file_exists($filename)){
-             echo "Erro ao tentar grava inforçoes";
+             fopen($filename,"w+");
+             echo "Repita o processo ....";
+             
          }  else {
              file_put_contents($filename,"\n".$serialize,FILE_APPEND);
              unset($this->arraypessoa);
