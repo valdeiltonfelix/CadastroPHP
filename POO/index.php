@@ -49,8 +49,96 @@ and open the template in the editor.
       </div>   
        </div>
          </div> 
+    <h2>Pessoas cadastradas</h2>
+    <button type="button" id="buscar" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Pessoas">Abrir cadastrados</button>
+      <!-- Modal -->
+  <div class="modal fade " id="Pessoas" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Pessoas cadastradas</h4>
+        </div>
+        <div class="modal-body">
+            
+           <!--tabele de pessoas cadastradas-->
+                  
+  <table class="table btn-sm">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cpf</th>
+        <th>Mae</th>
+        <th>Pai</th>
+ 
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Valdeilton de souza felix</td>
+        <td>873</td>
+        <td>230030293</td>
+         <td>Josefina da silva</td>
+        <td>Carlos dias dourado</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+            
+            
         </div> 
+        <div class="modal-footer">
+  
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>   
+       </div>
+         </div> 
+        </div> 
+      
         <script src="js/dados.js"></script>
+        <script src="js/pessoa.js"></script>
 
     </body>
 </html>
+
+
+<!--<div class="container">
+  <h1 class="page-header">Tabelas com Bootstrap</h1>
+  <div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Coluna 01</th>
+          <th>Coluna 02</th>
+          <th>Coluna 03</th>
+          <th>Coluna 04</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+          <td>Conteúdo</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</div>
+<div class="container">
+  &copy; 2016 - Web Dev Academy
+</div>-->
