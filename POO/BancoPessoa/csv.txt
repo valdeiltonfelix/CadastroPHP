@@ -1,1 +1,1 @@
-#contem arquivos .csv onde contem informaçoes de dados serializados
+#contem arquivos .csv onde existe informaçoes de dados serializados
