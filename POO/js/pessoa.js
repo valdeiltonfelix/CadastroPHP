@@ -39,11 +39,31 @@ function buscar(){
     function validar() {
     if (httpRequest.readyState === 4) {
       if (httpRequest.status === 200) {
-        alert(httpRequest.responseText);
-        limpar();
+       carregargrid(httpRequest.responseText);
       } else {
        alert('ERRO:: Trazer os dados');
       }
       }
+    }
+    
+    function carregargrid(dados){
+        var obPessoa=JSON.parse(dados);     
+            obPessoa.forEach(function (valor,id){
+                    var row = document.createElement("tr");
+                 
+               for (var i in valor) {
+                   
+                    var cell = document.createElement("td");
+                    var cellText = document.createTextNode(valor[i]);
+                    cell.appendChild(cellText);
+                    row.appendChild(cell);            
+               }
+               
+               document.getElementById('tbody').appendChild(row);    
+           });
+           delete dados;
+          delete obPessoa;
+           
+        
     }
 }

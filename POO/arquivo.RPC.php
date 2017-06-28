@@ -25,6 +25,7 @@ new Serialize($pessoa);
 
 if(isset($Response->buscar)){
    $deserializando=new Deserializar();
-   var_dump($deserializando->deserialinzando());
+   echo json_encode($deserializando->deserialinzando());
 }
+
 

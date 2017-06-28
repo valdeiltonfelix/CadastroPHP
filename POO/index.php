@@ -76,14 +76,7 @@ and open the template in the editor.
  
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>Valdeilton de souza felix</td>
-        <td>873</td>
-        <td>230030293</td>
-         <td>Josefina da silva</td>
-        <td>Carlos dias dourado</td>
-      </tr>
+    <tbody id="tbody">
       
     </tbody>
   </table>
@@ -105,40 +98,3 @@ and open the template in the editor.
 
     </body>
 </html>
-
-
-<!--<div class="container">
-  <h1 class="page-header">Tabelas com Bootstrap</h1>
-  <div class="table-responsive">
-    <table class="table table-striped table-bordered table-hover">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Coluna 01</th>
-          <th>Coluna 02</th>
-          <th>Coluna 03</th>
-          <th>Coluna 04</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>1</th>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-        </tr>
-        <tr>
-          <th>2</th>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-          <td>Conteúdo</td>
-        </tr>
-      </tbody>
-    </table>
-    </div>
-</div>
-<div class="container">
-  &copy; 2016 - Web Dev Academy
-</div>-->
