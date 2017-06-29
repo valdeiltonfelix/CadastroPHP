@@ -47,7 +47,14 @@ function buscar(){
     }
     
     function carregargrid(dados){
-        var obPessoa=JSON.parse(dados);     
+        var obPessoa=JSON.parse(dados); 
+         
+          tbody.innerHTML = "" ;
+         
+//        while(tbody.lastChild) {
+//            tbody.removeChild(tbody.lastChild);
+//        }
+//         
             obPessoa.forEach(function (valor,id){
                     var row = document.createElement("tr");
                  
